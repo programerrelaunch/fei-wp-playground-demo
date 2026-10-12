@@ -32,7 +32,7 @@
                 "url": "https://raw.githubusercontent.com/programerrelaunch/fei-wp-playground-demo/main/fei-core.zip"
             },
             "options": {
-                "activate": true
+                "activate": false
             }
         },
         {
@@ -44,6 +44,10 @@
             "options": {
                 "activate": true
             }
+        },
+        {
+            "step": "activatePlugin",
+            "pluginPath": "fei-core/fei-core.php"
         },
         {
             "step": "writeFile",
